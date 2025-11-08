@@ -271,13 +271,13 @@
 
         <div class="header">
             <h1>📊 Analytics Dashboard</h1>
-            <div class="route-badge">Route: /dashboard → analytics-server:5000</div>
+            <div class="route-badge">Route: /dashboard </div>
             <div class="ssl-indicator">HTTPS Secured Connection via Reverse Proxy</div>
         </div>
 
         <div class="info-box">
             <h2>Dashboard Route Information</h2>
-            <p>You are now on the <strong>/dashboard</strong> route. This page demonstrates how the reverse proxy routes this path to a different backend server (analytics-server on port 5000).</p>
+            <p>You are now on the <strong>/dashboard</strong> route. This page demonstrates how the reverse proxy routes this path to a different backend server .</p>
             <p>Each route can be served by completely different backend applications, all unified under one domain with SSL/TLS encryption.</p>
         </div>
 
@@ -340,10 +340,6 @@
                 <span class="detail-value">analytics-server</span>
             </div>
             <div class="detail-row">
-                <span class="detail-label">Internal Port:</span>
-                <span class="detail-value">5000</span>
-            </div>
-            <div class="detail-row">
                 <span class="detail-label">Internal Protocol:</span>
                 <span class="detail-value">HTTP</span>
             </div>
@@ -373,7 +369,7 @@
                 <strong>Step 3:</strong> Proxy matches /dashboard route to analytics-server
             </div>
             <div class="flow-step">
-                <strong>Step 4:</strong> Request forwarded to analytics-server:5000 via internal network
+                <strong>Step 4:</strong> Request forwarded to analytics-server via internal network
             </div>
             <div class="flow-step">
                 <strong>Step 5:</strong> Analytics server processes request and returns metrics data
@@ -393,4 +389,5 @@
         </div>
     </div>
 </body>
+
 </html>
